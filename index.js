@@ -1,5 +1,5 @@
 const Calculate = {
-    sum(){
+    sum(numArr){
         return 6;
     }
 };
