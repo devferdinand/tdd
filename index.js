@@ -1,6 +1,8 @@
 const Calculate = {
     sum(numArr){
-        return 6;
+        let res = 0;
+        numArr.forEach((element) => res += element);
+        return res;
     }
 };
 
