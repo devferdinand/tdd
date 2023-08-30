@@ -20,5 +20,13 @@ describe('Calculate', () =>{
         const actual = Calculate.sum(numArr);
         assert.strictEqual(actual, expected);
      });
+
+     it('returns zero for an empty array', () => {
+        const numArr = [];
+        const expected = 0;
+
+        const actual = Calculate.sum(numArr);
+        assert.strictEqual(actual, expected);
+     });
    });
 });
